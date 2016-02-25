@@ -10,21 +10,34 @@ body {
   line-height: 1.5;
   color: #000000;
   text-align: left;
-  background-color: #e6e6e6;
+  background-color: #bfbfbf;
 }
 
 a {
   color: #000000;
   text-decoration: none; }
-  a:hover {
-    color: #000000;}
+
+  a.title-link:hover {
+    color: #ffffff;}
+
+a.read-more {
+	text-decoration:underline;
+}
+
+h1{
+	text-decoration:bold;
+}
+
+small{
+	font-size: 20px;
+}
 
 div.box {
 	width: 400px;
-	margin: 10 auto; /* when two "arguments" are passed to margin or padding, the first defines top
+	margin: 25px; /* when two "arguments" are passed to margin or padding, the first defines top
 		and bottom margin/padding and the second defines left and right margin/padding */
 	padding: 20px; /* when only one "argument" is passed to margin or padding, it defines the
 		margin/padding on all four sides */
-	border: 1px  #8181b1; /* the 1px defines the border-width; the solid defines the border-style;
+	border: 1px   solid black; /* the 1px defines the border-width; the solid defines the border-style;
 		the black defines the border-color */
 }
