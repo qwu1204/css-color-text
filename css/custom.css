@@ -19,7 +19,7 @@ a {
     color: #000000;}
 
 div.box {
-	width: 390px;
+	width: 370px;
 	margin: 10 auto; /* when two "arguments" are passed to margin or padding, the first defines top
 		and bottom margin/padding and the second defines left and right margin/padding */
 	padding: 10px; /* when only one "argument" is passed to margin or padding, it defines the
