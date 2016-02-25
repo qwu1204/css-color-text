@@ -25,6 +25,6 @@ div.box {
 		and bottom margin/padding and the second defines left and right margin/padding */
 	padding: 20px; /* when only one "argument" is passed to margin or padding, it defines the
 		margin/padding on all four sides */
-	border: 1px #c0c0d8; /* the 1px defines the border-width; the solid defines the border-style;
+	border: 1px  #8181b1; /* the 1px defines the border-width; the solid defines the border-style;
 		the black defines the border-color */
 }
